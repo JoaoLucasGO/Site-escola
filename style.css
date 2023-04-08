@@ -1,4 +1,32 @@
-header{
+*{
+margin:0;
+padding: 0%;
+}
+
+.cabecalho {
     background-color: #224338;
     color: white;
+display: flex;
+justify-content: space-between;
+padding: 15px;
+align-items: center;
+font-size: 25px;
+}
+
+
+.cabecalho-imagem{
+width: 15%;
+}
+
+.cabecalho-imagem{display: inline-block; 
+margin: 0 16px;
+font-size: 24px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items:center ; 
+    justify-content: center;
+gap: center; 
 }
